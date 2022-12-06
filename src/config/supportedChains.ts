@@ -1,16 +1,8 @@
-import {
-  EthereumMainnetConfig,
-  FantomConfig,
-  GoerliConfig,
-  OptimismConfig,
-} from './networksConfig';
+import { GoerliConfig } from './networksConfig';
 
 import { SupportedChainIdsType } from '../interfaces/INetworks';
 
 export const CHAINS_CONFIG: SupportedChainIdsType = {
-  [1]: EthereumMainnetConfig,
-  [10]: OptimismConfig,
-  [250]: FantomConfig,
   [5]: GoerliConfig,
 };
 

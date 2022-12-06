@@ -7,6 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "codegen": "cross-env typechain --target=ethers-v5 --out-dir=./src/contractTypes 'src/interfaces/abi/*.json'",
     "lint": "cross-env eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "cross-env eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet --fix",
     "format": "cross-env prettier \"src/**/*.{js,jsx,ts,tsx,json}\" --write",

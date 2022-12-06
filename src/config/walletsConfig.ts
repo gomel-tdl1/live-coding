@@ -10,7 +10,7 @@ export const getRpcUrlByChainId = (
 };
 
 export const injected = new InjectedConnector({
-  supportedChainIds: SUPPORTED_CHAINS.concat(),
+  supportedChainIds: [...SUPPORTED_CHAINS, 1],
 });
 
 const Web3WalletTypeName = 'web3_wallet_type';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRoutes } from 'react-router-dom';
 
-import { routesConfig } from './AppRoutes';
+import { routesConfig } from './RoutesTree';
 
 /**
  * Render a route with potential sub routes
